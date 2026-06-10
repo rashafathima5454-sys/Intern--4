@@ -1,0 +1,53 @@
+.minimal-footer {
+    background: linear-gradient(135deg, #5c0011, #8b0000);
+    color: white;
+    padding: 40px 0;
+    margin-top: 60px;
+}
+
+.footer-content {
+    text-align: center;
+}
+
+.brand-name {
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.footer-links {
+    margin-bottom: 20px;
+}
+
+.footer-links a {
+    color: rgba(255,255,255,0.85);
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.footer-links a:hover {
+    color: white;
+}
+
+.social-icons {
+    margin-bottom: 20px;
+}
+
+.social-icons i {
+    font-size: 1.3rem;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.social-icons i:hover {
+    transform: translateY(-3px);
+}
+
+.copyright {
+    margin: 0;
+    opacity: 0.8;
+    font-size: 0.9rem;
+}

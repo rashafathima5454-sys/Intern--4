@@ -1,0 +1,89 @@
+/* Cherry Red Luxury Theme */
+
+.custom-navbar {
+    background: linear-gradient(
+        135deg,
+        #5c0011,
+        #8b0000,
+        #b22222
+    );
+    padding: 15px 0;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.25);
+}
+
+.navbar-brand {
+    color: #fff !important;
+    font-size: 1.8rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.nav-link {
+    color: #fff !important;
+    margin: 0 12px;
+    font-weight: 500;
+    position: relative;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #ffd6d6 !important;
+}
+
+.nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: 0.3s;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
+.profile-btn {
+    background: white;
+    color: #8b0000;
+    border-radius: 25px;
+    padding: 8px 18px;
+    font-weight: 600;
+}
+
+.profile-btn:hover {
+    transform: translateY(-2px);
+}
+
+.logout-btn {
+    background: #3b0000;
+    color: white;
+    border-radius: 25px;
+    padding: 8px 18px;
+    font-weight: 600;
+}
+
+.logout-btn:hover {
+    background: #220000;
+    color: white;
+    transform: translateY(-2px);
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.icon-link {
+    color: #ffe5e5;
+    font-size: 1.3rem;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.icon-link:hover {
+    color: white;
+    transform: scale(1.1);
+}

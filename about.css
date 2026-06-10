@@ -1,0 +1,29 @@
+.about-tag {
+    color: #8b0000;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.about-text {
+    color: #555;
+    line-height: 1.8;
+}
+
+.explore-btn {
+    background: #8b0000;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.explore-btn:hover {
+    background: #5c0011;
+    color: white;
+}
+
+img {
+    max-height: 450px;
+    object-fit: cover;
+}
